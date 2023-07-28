@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDEEB7A62A73F7AE004A31C7 /* QuestioffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEB7A52A73F7AE004A31C7 /* QuestioffApp.swift */; };
+		BDEEB7A82A73F7AE004A31C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEB7A72A73F7AE004A31C7 /* ContentView.swift */; };
+		BDEEB7AA2A73F7AF004A31C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEEB7A92A73F7AF004A31C7 /* Assets.xcassets */; };
+		BDEEB7AE2A73F7AF004A31C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEEB7AD2A73F7AF004A31C7 /* Preview Assets.xcassets */; };
+		BDEEB7B82A73F7AF004A31C7 /* QuestioffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEB7B72A73F7AF004A31C7 /* QuestioffTests.swift */; };
+		BDEEB7C22A73F7AF004A31C7 /* QuestioffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEB7C12A73F7AF004A31C7 /* QuestioffUITests.swift */; };
+		BDEEB7C42A73F7AF004A31C7 /* QuestioffUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEB7C32A73F7AF004A31C7 /* QuestioffUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDEEB7B42A73F7AF004A31C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEEB79A2A73F7AE004A31C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEEB7A12A73F7AE004A31C7;
+			remoteInfo = Questioff;
+		};
+		BDEEB7BE2A73F7AF004A31C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEEB79A2A73F7AE004A31C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEEB7A12A73F7AE004A31C7;
+			remoteInfo = Questioff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDEEB7A22A73F7AE004A31C7 /* Questioff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questioff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEEB7A52A73F7AE004A31C7 /* QuestioffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestioffApp.swift; sourceTree = "<group>"; };
+		BDEEB7A72A73F7AE004A31C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDEEB7A92A73F7AF004A31C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDEEB7AB2A73F7AF004A31C7 /* Questioff.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Questioff.entitlements; sourceTree = "<group>"; };
+		BDEEB7AD2A73F7AF004A31C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDEEB7B32A73F7AF004A31C7 /* QuestioffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestioffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEEB7B72A73F7AF004A31C7 /* QuestioffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestioffTests.swift; sourceTree = "<group>"; };
+		BDEEB7BD2A73F7AF004A31C7 /* QuestioffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestioffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEEB7C12A73F7AF004A31C7 /* QuestioffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestioffUITests.swift; sourceTree = "<group>"; };
+		BDEEB7C32A73F7AF004A31C7 /* QuestioffUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestioffUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDEEB79F2A73F7AE004A31C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEEB7B02A73F7AF004A31C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEEB7BA2A73F7AF004A31C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDEEB7992A73F7AE004A31C7 = {
+			isa = PBXGroup;
+			children = (
+				BDEEB7A42A73F7AE004A31C7 /* Questioff */,
+				BDEEB7B62A73F7AF004A31C7 /* QuestioffTests */,
+				BDEEB7C02A73F7AF004A31C7 /* QuestioffUITests */,
+				BDEEB7A32A73F7AE004A31C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDEEB7A32A73F7AE004A31C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDEEB7A22A73F7AE004A31C7 /* Questioff.app */,
+				BDEEB7B32A73F7AF004A31C7 /* QuestioffTests.xctest */,
+				BDEEB7BD2A73F7AF004A31C7 /* QuestioffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDEEB7A42A73F7AE004A31C7 /* Questioff */ = {
+			isa = PBXGroup;
+			children = (
+				BDEEB7A52A73F7AE004A31C7 /* QuestioffApp.swift */,
+				BDEEB7A72A73F7AE004A31C7 /* ContentView.swift */,
+				BDEEB7A92A73F7AF004A31C7 /* Assets.xcassets */,
+				BDEEB7AB2A73F7AF004A31C7 /* Questioff.entitlements */,
+				BDEEB7AC2A73F7AF004A31C7 /* Preview Content */,
+			);
+			path = Questioff;
+			sourceTree = "<group>";
+		};
+		BDEEB7AC2A73F7AF004A31C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDEEB7AD2A73F7AF004A31C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDEEB7B62A73F7AF004A31C7 /* QuestioffTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEEB7B72A73F7AF004A31C7 /* QuestioffTests.swift */,
+			);
+			path = QuestioffTests;
+			sourceTree = "<group>";
+		};
+		BDEEB7C02A73F7AF004A31C7 /* QuestioffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEEB7C12A73F7AF004A31C7 /* QuestioffUITests.swift */,
+				BDEEB7C32A73F7AF004A31C7 /* QuestioffUITestsLaunchTests.swift */,
+			);
+			path = QuestioffUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDEEB7A12A73F7AE004A31C7 /* Questioff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEEB7C72A73F7AF004A31C7 /* Build configuration list for PBXNativeTarget "Questioff" */;
+			buildPhases = (
+				BDEEB79E2A73F7AE004A31C7 /* Sources */,
+				BDEEB79F2A73F7AE004A31C7 /* Frameworks */,
+				BDEEB7A02A73F7AE004A31C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Questioff;
+			productName = Questioff;
+			productReference = BDEEB7A22A73F7AE004A31C7 /* Questioff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDEEB7B22A73F7AF004A31C7 /* QuestioffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEEB7CA2A73F7AF004A31C7 /* Build configuration list for PBXNativeTarget "QuestioffTests" */;
+			buildPhases = (
+				BDEEB7AF2A73F7AF004A31C7 /* Sources */,
+				BDEEB7B02A73F7AF004A31C7 /* Frameworks */,
+				BDEEB7B12A73F7AF004A31C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEEB7B52A73F7AF004A31C7 /* PBXTargetDependency */,
+			);
+			name = QuestioffTests;
+			productName = QuestioffTests;
+			productReference = BDEEB7B32A73F7AF004A31C7 /* QuestioffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDEEB7BC2A73F7AF004A31C7 /* QuestioffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEEB7CD2A73F7AF004A31C7 /* Build configuration list for PBXNativeTarget "QuestioffUITests" */;
+			buildPhases = (
+				BDEEB7B92A73F7AF004A31C7 /* Sources */,
+				BDEEB7BA2A73F7AF004A31C7 /* Frameworks */,
+				BDEEB7BB2A73F7AF004A31C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEEB7BF2A73F7AF004A31C7 /* PBXTargetDependency */,
+			);
+			name = QuestioffUITests;
+			productName = QuestioffUITests;
+			productReference = BDEEB7BD2A73F7AF004A31C7 /* QuestioffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDEEB79A2A73F7AE004A31C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BDEEB7A12A73F7AE004A31C7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BDEEB7B22A73F7AF004A31C7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BDEEB7A12A73F7AE004A31C7;
+					};
+					BDEEB7BC2A73F7AF004A31C7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BDEEB7A12A73F7AE004A31C7;
+					};
+				};
+			};
+			buildConfigurationList = BDEEB79D2A73F7AE004A31C7 /* Build configuration list for PBXProject "Questioff" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDEEB7992A73F7AE004A31C7;
+			productRefGroup = BDEEB7A32A73F7AE004A31C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDEEB7A12A73F7AE004A31C7 /* Questioff */,
+				BDEEB7B22A73F7AF004A31C7 /* QuestioffTests */,
+				BDEEB7BC2A73F7AF004A31C7 /* QuestioffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDEEB7A02A73F7AE004A31C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEEB7AE2A73F7AF004A31C7 /* Preview Assets.xcassets in Resources */,
+				BDEEB7AA2A73F7AF004A31C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEEB7B12A73F7AF004A31C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEEB7BB2A73F7AF004A31C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDEEB79E2A73F7AE004A31C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEEB7A82A73F7AE004A31C7 /* ContentView.swift in Sources */,
+				BDEEB7A62A73F7AE004A31C7 /* QuestioffApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEEB7AF2A73F7AF004A31C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEEB7B82A73F7AF004A31C7 /* QuestioffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEEB7B92A73F7AF004A31C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEEB7C22A73F7AF004A31C7 /* QuestioffUITests.swift in Sources */,
+				BDEEB7C42A73F7AF004A31C7 /* QuestioffUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDEEB7B52A73F7AF004A31C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDEEB7A12A73F7AE004A31C7 /* Questioff */;
+			targetProxy = BDEEB7B42A73F7AF004A31C7 /* PBXContainerItemProxy */;
+		};
+		BDEEB7BF2A73F7AF004A31C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDEEB7A12A73F7AE004A31C7 /* Questioff */;
+			targetProxy = BDEEB7BE2A73F7AF004A31C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDEEB7C52A73F7AF004A31C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDEEB7C62A73F7AF004A31C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BDEEB7C82A73F7AF004A31C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Questioff/Questioff.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Questioff/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.Questioff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDEEB7C92A73F7AF004A31C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Questioff/Questioff.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Questioff/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.Questioff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDEEB7CB2A73F7AF004A31C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.QuestioffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Questioff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Questioff";
+			};
+			name = Debug;
+		};
+		BDEEB7CC2A73F7AF004A31C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.QuestioffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Questioff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Questioff";
+			};
+			name = Release;
+		};
+		BDEEB7CE2A73F7AF004A31C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.QuestioffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Questioff;
+			};
+			name = Debug;
+		};
+		BDEEB7CF2A73F7AF004A31C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.QuestioffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Questioff;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDEEB79D2A73F7AE004A31C7 /* Build configuration list for PBXProject "Questioff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEEB7C52A73F7AF004A31C7 /* Debug */,
+				BDEEB7C62A73F7AF004A31C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEEB7C72A73F7AF004A31C7 /* Build configuration list for PBXNativeTarget "Questioff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEEB7C82A73F7AF004A31C7 /* Debug */,
+				BDEEB7C92A73F7AF004A31C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEEB7CA2A73F7AF004A31C7 /* Build configuration list for PBXNativeTarget "QuestioffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEEB7CB2A73F7AF004A31C7 /* Debug */,
+				BDEEB7CC2A73F7AF004A31C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEEB7CD2A73F7AF004A31C7 /* Build configuration list for PBXNativeTarget "QuestioffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEEB7CE2A73F7AF004A31C7 /* Debug */,
+				BDEEB7CF2A73F7AF004A31C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDEEB79A2A73F7AE004A31C7 /* Project object */;
+}
